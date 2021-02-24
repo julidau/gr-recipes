@@ -26,6 +26,7 @@ satisfy:
 satisfy@python3:
   deb: python3-pyyaml || python3-yaml
   rpm: python3-pyyaml
+  pacman: python-pyaml
 description: Python wrapper for YAML parser
 source: http://pyyaml.org/download/pyyaml/PyYAML-3.12.tar.gz
 
